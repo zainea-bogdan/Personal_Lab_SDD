@@ -11,3 +11,4 @@ typedef struct Studentinfo
 
 PStudentinfo createstudentinfo(const char*, short);
 void deletestudentinfo(PStudentinfo);
+void transfer_group(PStudentinfo, int);

@@ -23,3 +23,9 @@ void deletestudentinfo(PStudentinfo pablo)
 	free(pablo);
 	pablo = NULL;
 }
+
+//setter
+void transfer_group(PStudentinfo test,int noua_grupa)
+{
+	test->group_no = noua_grupa;
+}
