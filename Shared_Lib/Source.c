@@ -1,4 +1,6 @@
 #include "Studentinfo.h"
+#include <stdio.h>
+#include "string.h"
 
 PStudentinfo createstudentinfo(const char* name, short group)
 {
@@ -20,6 +22,7 @@ PStudentinfo createstudentinfo(const char* name, short group)
 
 void deletestudentinfo(PStudentinfo pablo)
 {
+	printf("s-a dus stud. AMEN!\n");
 	free(pablo);
 	pablo = NULL;
 }
@@ -29,3 +32,9 @@ void transfer_group(PStudentinfo test,int noua_grupa)
 {
 	test->group_no = noua_grupa;
 }
+
+void afisare_date_student(PStudentinfo source)
+{
+	printf("Numele studentului este: %s si face parte din grupa %d\n", source->name, source->group_no);
+}
+

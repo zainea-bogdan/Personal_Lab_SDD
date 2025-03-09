@@ -18,5 +18,8 @@
     <ClCompile Include="S!_practice.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="s2practice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
