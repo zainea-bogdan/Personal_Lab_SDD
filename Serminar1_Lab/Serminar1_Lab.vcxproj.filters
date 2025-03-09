@@ -21,5 +21,8 @@
     <ClCompile Include="s2practice.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="learning_about_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

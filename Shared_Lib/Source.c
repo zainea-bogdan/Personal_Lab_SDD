@@ -38,3 +38,5 @@ void afisare_date_student(PStudentinfo source)
 	printf("Numele studentului este: %s si face parte din grupa %d\n", source->name, source->group_no);
 }
 
+
+

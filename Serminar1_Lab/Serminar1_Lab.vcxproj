@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="learning_about_list.c" />
     <ClCompile Include="S!_practice.c" />
     <ClCompile Include="s2practice.c" />
   </ItemGroup>
