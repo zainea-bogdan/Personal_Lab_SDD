@@ -131,6 +131,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="learning_about_list.c" />
+    <ClCompile Include="practice_arrays1.c" />
+    <ClCompile Include="practice_linked_list_simpleones.c" />
+    <ClCompile Include="practice_list2.c" />
     <ClCompile Include="S!_practice.c" />
     <ClCompile Include="s2practice.c" />
   </ItemGroup>
